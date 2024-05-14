@@ -22,4 +22,4 @@ time=8
 text="mohan can do work in {} days"
 print(text.format(time))
 x="rahul likes to watch football in tv and play football"
-print(x.count("football"))
+print(text.count("football"))
