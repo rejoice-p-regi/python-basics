@@ -1,0 +1,58 @@
+fruits=["apple","mango","grape","orange","carrat","jackfruit"]
+print(fruits)
+print(len(fruits))
+print(type(fruits))
+x=list((10,30,50,70,90))
+print(x)
+print(fruits[1])
+print(fruits[-1])
+print(fruits[2:5])
+print(fruits[3:])
+print(fruits[:3])
+print(fruits[-5:-2])
+print("grape" in fruits)
+print("papaya" not in fruits)
+fruits[2]="mango"
+print(fruits)
+fruits[2:4]=["banana","guva"]
+print(fruits)
+x.append(20)
+print(x)
+x.insert(1,20)
+print(x)
+fruits.extend(x)
+print(fruits)
+fruits.remove(10)
+print(fruits)
+fruits.pop(2)
+print(fruits)
+fruits.pop()
+print(fruits)
+del fruits[2]
+print(fruits)
+# fruits.clear()
+# print(fruits)
+# del fruits
+# print(fruits)
+for i in fruits:
+    print(i)
+x=["yellow","red","blue","white","purple","pink","black"]
+x.sort()
+print(x)
+x.sort(reverse=True)
+print(x)
+y=x.copy()
+print(y)
+z=list(x)
+print(z)
+r=(x+y)
+print(r)
+r.extend(fruits)
+print(r)
+text=["a","b","c","d","e"]
+number=[1,2,3,4,5,6,6,7,7,7,]
+for i in number:
+    text.append(i)
+print(text)
+digits=number.count(6)
+print(digits)
