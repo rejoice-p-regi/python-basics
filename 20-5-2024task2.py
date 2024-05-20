@@ -1,0 +1,38 @@
+age={1,2,3,4,5,6,"two","three"}
+print(age)
+print(type(age))
+print(len(age))
+age=set((1,2,3,4,5,6,"two","three"))
+print(age)
+for i in age:
+    print(i)
+print(2 in age)
+print(8 not in age)
+age.add(8)
+print(age)
+z={"tiger","lion","wolf","dog","cat"}
+age.update(z)
+print(age)
+p=(1,2,3,4,5,6)
+age.update(p)
+print(age)
+age.remove("two")
+print(age)
+age.discard(10)
+print(age)
+age.discard(1)
+print(age)
+r=age.pop()
+print(age)
+print(r)
+# age.clear()
+# print(age)
+# del age
+t=age.union(z)
+print(t)
+o={"table","chair","fan"}
+k={"table",1,3}
+u=o.intersection(k)
+print(u)
+b=o.difference(k)
+print(b)
