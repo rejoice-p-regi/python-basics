@@ -2,8 +2,9 @@ from math import pi
 # r = float(input("input the radius of thr circle : "))
 # area = pi*r**2
 # print(area)
+
 # r = float(input('radius of sphere'))
-# area = 4*pi*radius*2
+# area = 4*pi*r*2
 # print(area)
 
 def surfacearea(r, h):

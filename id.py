@@ -1,0 +1,22 @@
+import datetime
+x=datetime.datetime.now()
+print(x.strftime("%I"))
+print(x.strftime("%a"))
+print(x.strftime("%d"))
+print(x.strftime("%H"))
+print(x.strftime("%m"))
+print(x.strftime("%A"))
+print(x.strftime("%y"))
+print(x.strftime("%Y"))
+print(x.strftime("%x"))
+print(x.strftime("%X"))
+x=datetime.datetime(2000,7,19)
+print(x)
+j=[1,2,3,4,5]
+print(j)
+print(len(j))
+print(type(j))
+s=frozenset(j)
+print(s)
+s[2]=10
+print(s)
