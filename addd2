@@ -1,0 +1,10 @@
+x=10
+y=20
+print(x+y)
+print(x-y)
+print(x*y)
+print(x/y)
+r=20
+p=12
+if r>p:
+    print("r is greater")
